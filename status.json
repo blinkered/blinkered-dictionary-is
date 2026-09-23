@@ -2,7 +2,7 @@
   "language": "is",
   "built": "2026-09-23",
   "candidates": 68689,
-  "shipped": 27162,
+  "shipped": 33777,
   "ships": "pending",
   "decided": null,
   "why": null,
@@ -10,7 +10,7 @@
   "conforms": true,
   "families": 6,
   "checkable": 5,
-  "knee": 6,
+  "knee": 5,
   "steps": [
     {
       "families": 1,
@@ -21,38 +21,38 @@
     },
     {
       "families": 2,
-      "added": "leipzig",
+      "added": "internetarchive",
       "kept": 0,
       "share": 0,
       "gained": 0
     },
     {
       "families": 3,
-      "added": "internetarchive",
-      "kept": 22822,
-      "share": 0.332251,
-      "gained": 22822
+      "added": "leipzig",
+      "kept": 30086,
+      "share": 0.438003,
+      "gained": 30086
     },
     {
       "families": 4,
       "added": "ebible",
-      "kept": 24919,
-      "share": 0.36278,
-      "gained": 2097
+      "kept": 32006,
+      "share": 0.465955,
+      "gained": 1920
     },
     {
       "families": 5,
       "added": "tatoeba",
-      "kept": 26287,
-      "share": 0.382696,
-      "gained": 1368
+      "kept": 32927,
+      "share": 0.479364,
+      "gained": 921
     },
     {
       "families": 6,
       "added": "gutenberg",
-      "kept": 27162,
-      "share": 0.395434,
-      "gained": 875
+      "kept": 33777,
+      "share": 0.491738,
+      "gained": 850
     }
   ]
 }

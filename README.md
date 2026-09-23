@@ -5,7 +5,7 @@ The Icelandic word list, and the evidence for every word in it.
 Built by [`blinkered-attestation`](https://github.com/blinkered/blinkered-attestation). The rule,
 the evidence format and the reasoning live there; what lives here is Icelandic.
 
-**27,162 of 68,689 candidates proved: 39.5%**, across 6 independent
+**33,777 of 68,689 candidates proved: 49.2%**, across 6 independent
 families, 5 of which a stranger could check by fetching.
 
 ## What is in this repository
@@ -40,7 +40,7 @@ where to get it again, which is what makes the downloads disposable.
 crawls from 2011 and 2019 and nothing newer, seven Gutenberg texts, a few thousand Tatoeba
 sentences, and a New Testament with Psalms. The candidate list is 68,689 words, most of them
 inflected forms of a language with four cases, three genders and a strong-verb system, so the
-drop list is long and 19,120 of its words are one family short.
+drop list is long and 19,047 of its words are one family short.
 
 **The Archive shelf was weeded, and here that meant Old Norse.** Most of what the Archive files as
 Icelandic is scholarship about it: Zoëga's *Concise Dictionary of Old Icelandic*, Fritzner's *Ordbog over det gamle norske
@@ -50,22 +50,23 @@ words outnumbered its Icelandic ones, if Icelandic function words were under 5% 
 unambiguously English words passed 0.8% of it, or if its name says it is a dictionary; a dictionary
 prints the candidate list back as headwords, which is not usage. The 5% floor also removes saga
 editions in normalised Old Norse spelling (OK for OG, AT for AÐ), which is a different language
-from the one these candidates are in. Each removal is in the shelf's `rejected.tsv`.
+from the one these candidates are in. Each removal is in the shelf's `rejected.tsv`; 213 books remain, and they are the third family
+that most words pass through.
 
 **REF ranks absurdly high, and that is a reader artefact.** It is a real word, a fox, and six
 collections attest it, so it belongs in the list. But 201,214 of its sightings are in Wikipedia,
 where they are the `<ref>` citation tags the Wikipedia reader does not strip. Its tier comes from
 that rate, not from Icelandic. The fix belongs in the shared reader, not here.
 
-**Icelandic is almost free of English.** 1.8% of the shipped list is also in Blinkered's English
+**Icelandic is almost free of English.** 1.6% of the shipped list is also in Blinkered's English
 candidates, and the top of the list is Icelandic function words. Every one of the 32 tiles
 spells something, Þ and Ð included.
 
 **No FineWeb-2.** Its 4.8GB Icelandic shard was not fetched because the disk was nearly full. It is
 declared in `sources.mjs` and skipped when absent.
 
-Of the 41,527 dropped candidates, 19,120 were seen by two families and are one short;
-14,836 were seen by one, and 7,571 by none at all.
+Of the 34,912 dropped candidates, 19,047 were seen by two families and are one short;
+10,165 were seen by one, and 5,700 by none at all.
 
 ## Rebuilding
 

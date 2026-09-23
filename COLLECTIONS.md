@@ -12,9 +12,9 @@ collection rather than reuse its record only has to put the file back where the 
 
 | collection | tokens | what it is | where it came from |
 | --- | ---: | --- | --- |
+| `ia` | 17,848,982 | Internet Archive Icelandic books; literature, and the register a newspaper never reaches | [archive-is](https://archive.org/search?query=(language%3A%22Icelandic%22%20OR%20language%3Aice%20OR%20language%3Aisl)%20AND%20mediatype%3Atexts) |
 | `wiki:is` | 11,804,089 | Icelandic Wikipedia; modern encyclopedic prose | [iswiki.xml.bz2](https://dumps.wikimedia.org/iswiki/latest/iswiki-latest-pages-articles.xml.bz2) |
 | `wikisource:is` | 2,495,577 | Icelandic Wikisource; same Wikimedia family, so it corroborates rather than counts | [iswikisource.xml.bz2](https://dumps.wikimedia.org/iswikisource/latest/iswikisource-latest-pages-articles.xml.bz2) |
-| `ia` | 1,809,097 | Internet Archive Icelandic books; literature, and the register a newspaper never reaches | [archive-is](https://archive.org/search?query=(language%3A%22Icelandic%22%20OR%20language%3Aice%20OR%20language%3Aisl)%20AND%20mediatype%3Atexts) |
 | `lz:isl_newscrawl_2011_1M` | 1,123,615 | Leipzig isl_newscrawl_2011_1M; modern news, cited by the page each sentence came from | [isl_newscrawl_2011_1M](https://downloads.wortschatz-leipzig.de/corpora/isl_newscrawl_2011_1M.tar.gz) |
 | `lz:isl_newscrawl_2019_300K` | 446,705 | Leipzig isl_newscrawl_2019_300K; modern news, cited by the page each sentence came from | [isl_newscrawl_2019_300K](https://downloads.wortschatz-leipzig.de/corpora/isl_newscrawl_2019_300K.tar.gz) |
 | `ebible:isl` | 171,024 | Opna Lifandi Orð, an Icelandic New Testament and Psalms; a family nothing else here belongs to | [isl_vpl.txt](https://ebible.org/Scriptures/isl_vpl.zip) |
